@@ -1,144 +1,75 @@
+/* Styles de base */
 body {
-	text-align: center;
-	margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-}
-a, a:hover, a:visited, a:active {
-  color: inherit;
-  text-decoration: none;
- }
-h1 {
-	font-size:50px
-}
-h2 {
-	font-size:35px
+    margin: 0;
+    padding: 0;
+	background-color:#E8EBE5
 }
 
-        .header {
-            background-color: #326e6c;
-            padding: 10px 0;
-        }
-
-        nav {
-			text-align:left;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-			.menu {
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-				display: flex;
-				gap: 30px;
-			}
-
-			.menu li {
-				display: inline;
-			}
-
-			.menu a {
-				text-decoration: none;
-				color: white;
-				font-size: 16px;
-				font-weight: bold;
-				transition: color 0.3s ease;
-			}
-
-			.menu a:hover {
-				color: #d1d1d1; 
-				font-size: 18px;
-				transition: font-size 0.3s ease;
-			}
+/* Bouton d'ouverture */
+#open-menu {
+    position: fixed;
+    top: 10px;
+    left: 7%;
+    background-color: #1B9AAA;
+    color: white;
+    border: simple;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 999;
 	
-	.hero {
-        text-align: center;
-        padding: 50px 20px;
-        background-color: #e0f2f1;
-    }
-    
-    .hero img {
-        width: 100px;
-    }
-    
-    .hero h1 {
-        font-size: 3em;
-        margin: 20px 0;
-    }
-
-    .hero p {
-        font-size: 1.2em;
-        color: #555;
-    }
-    
-    .intro, .services-preview {
-        padding: 40px 20px;
-        text-align: center;
-    }
-    
-    .intro h2, .services-preview h2 {
-        font-size: 2em;
-        margin-bottom: 20px;
-    }
-    
-    .intro p {
-        font-size: 1.1em;
-        max-width: 600px;
-        margin: 0 auto 20px;
-    }
-    
-    .btn {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #376d6a;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        font-weight: bold;
-    }
-
-    .btn:hover {
-        background-color: #2e5757;
-    }
-    
-    .services-preview {
-        background-color: #e0f2f1;
-    }
-    
-    .service-card {
-        display: inline-block;
-        width: 30%;
-        margin: 20px;
-        padding: 20px;
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    
-    .service-card h3 {
-        margin-top: 0;
-    }
-    
-    footer {
-        background-color: #376d6a;
-        color: white;
-        text-align: center;
-        padding: 10px 0;
-    }
-    
-    .service-card:hover {
-        transform: scale(1.05);
-    }
-
-news_title {
-	text-align: center;
-	font-size:50px;
 }
 
+/* Menu */
+#menu {
+    position: fixed;
+    top: 0;
+    left: -25%; /* Cache le menu en dehors de l'écran */
+    width: 10%;
+    height: 100%;
+    background-color: #1B9AAA;
+    color: white;
+	border-right-style:solid;
+	border-color:black;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: left 0.3s ease;
+    z-index: 1000;
+}
+
+/* Bouton pour fermer le menu */
+#close-menu {
+    position: absolute;
+    top: 10px;
+    left: 80%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Navigation dans le menu */
+#menu nav ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+#menu nav ul li {
+    margin: 15px 0;
+}
+
+#menu nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#menu nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Quand le menu est ouvert */
+#menu.open {
+    left: 0;
+}

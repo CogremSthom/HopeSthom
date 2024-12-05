@@ -1,42 +1,28 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>HOPE</title>
-		<link rel="stylesheet" href="./style.css">
-		<meta charset="utf-8">
-	</head>
-	
-	<body>
-		
-		<div class="header">
-        		<nav>
-            			<ul class="menu">
-							<a href="" style="display:default">[Remplacer par logo]</a>
-                			<li><a href="">Actualités</a></li>
-                			<li><a href="">Projet Final</a></li>
-							<li><a href="">A Propos de nous</a></li>
-							<li><a href="">Nous contacter</a></li>
-            			</ul>
-            			
-        		</nav>
-    		</div>
-		<section class="services-preview">
-		<center>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu déroulant</title>
+</head>
+<body>
+    <!-- Bouton pour ouvrir le menu -->
+    <button id="open-menu">☰</button>
 
-			
-		<h1>Bienvenue sur &lt;em&gt;er4ld Services Web </h1>
-		<h2>Votre partenaire afin de transformer vos idées en réalité numérique</h2>
-        	<p>Nous proposons des services sur mesure pour vous aider à réussir en ligne.</p>
-		<p>Que ce soit pour la création de site web, le design graphique, nous avons les compétences nécessaires pour vous accompagner.</p>
-        
-		<p> Entreprise de developpement de Site web. Créée en Septembre 2024 par les terminales NSI du lycée Saint-Thomas d'Aquin Veritas à Oullins.
-		</br></br>Nous réalisons des sites web en codant en <strong>HTML5, CSS3</strong> et <strong>JavaScript</strong>.</p>
-		<br>
-		<p>Pour en savoir plus, cliquez sur <strong><a href="service.html"> Services</a></strong></p>
-		</center>
-		</section>
-		<footer>
-			<p>&copy; 2024 Emer4ld. Tous droits réservés.</p>
-		</footer>
-	</body>
+    <!-- Contenu du menu -->
+    <div id="menu">
+        <button id="close-menu">✖</button>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
