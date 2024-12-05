@@ -137,3 +137,7 @@ h2 {
         transform: scale(1.05);
     }
 
+news_title {
+	text-align: center;
+}
+
