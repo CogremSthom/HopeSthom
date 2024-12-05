@@ -73,3 +73,7 @@ body {
 #menu.open {
     left: 0;
 }
+
+#news_title {
+	text_align: center;
+}
