@@ -74,6 +74,6 @@ body {
     left: 0;
 }
 
-#news_title {
+h1 {
 	text_align: center;
 }
