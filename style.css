@@ -82,36 +82,36 @@ font-size: 40px;
 
 
 header {
-            background-color: blue ;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        section {
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 900px;
-            background: white;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        h1 {
-            color: white;
-        }
-		h2, h3 {
-            color: orange;
-        }
+        background-color: blue ;
+        color: white;
+        padding: 20px;
+        text-align: center;
+}
+section {
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 900px;
+	background: white;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+}
+h1 {
+        color: white;
+}
+h2, h3 {
+	color: orange;
+}
 		
-        .organigramme img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-        }
-        .team-member {
-            text-align: center;
-            margin: 10px 0;
-        }
+.organigramme img {
+        max-width: 100%;
+        height: auto;
+	display: block;
+        margin: 20px auto;
+}
+.team-member {
+        text-align: center;
+        margin: 10px 0;
+}
 
 
 
