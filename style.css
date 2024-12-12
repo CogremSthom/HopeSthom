@@ -85,8 +85,10 @@ font-size: 40px;
   margin-right: auto;
   width: 50%;
 }
-centered {
+description {
 	text-align: center;
+	color: grey;
+	font-style: italic;
 }
 header {
             background-color: blue ;
