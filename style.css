@@ -85,7 +85,9 @@ font-size: 40px;
   margin-right: auto;
   width: 50%;
 }
-
+centered {
+	text-align: center;
+}
 header {
             background-color: blue ;
             color: white;
