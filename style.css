@@ -104,17 +104,22 @@ header {
             color: orange;
 			text-align: center;
         }
+        background-color: blue ;
+        color: white;
+        padding: 20px;
+        text-align: center;
+}
 		
-        .organigramme img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-        }
-        .team-member {
-            text-align: center;
-            margin: 10px 0;
-        }
+.organigramme img {
+        max-width: 100%;
+        height: auto;
+	display: block;
+        margin: 20px auto;
+}
+.team-member {
+        text-align: center;
+        margin: 10px 0;
+}
 
 
 
