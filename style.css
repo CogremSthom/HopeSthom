@@ -85,7 +85,7 @@ font-size: 40px;
   margin-right: auto;
   width: 50%;
 }
-description {
+.description {
 	text-align: center;
 	color: grey;
 	font-style: italic;
