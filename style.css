@@ -152,6 +152,7 @@ header {
 		h2, h3 {
             color: orange;
 			text-align: center;
+			margin:20px;
         }
         background-color: blue ;
         color: white;
