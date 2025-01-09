@@ -1,3 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.carousel {
+  height: 100vh;
+  width: 50vw;
+  position: center;
+  margin:0 auto;
+}
+.carousel button {
+  position: absolute;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 2.6rem;
+  z-index: 2;
+  cursor: pointer;
+  color: rgb(243, 241, 241);
+  transform: translateY(-50%);
+  top: 50%;
+}
+#prev {
+  left: 25% ;
+}
+#next {
+  right: 25.5%;
+}
+.carousel li {
+  list-style: none;
+}
+.slide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+.slide.active {
+  opacity: 1;
+}
+.slide img {
+  display: block;
+  height: 50%;
+  width: 50%;
+  object-fit: cover;
+}
+
 /* Styles de base */
 body {
     font-family: Arial, sans-serif;
@@ -79,17 +128,8 @@ body {
 text-align: center;
 font-size: 40px;
 }
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-description {
-	text-align: center;
-	color: grey;
-	font-style: italic;
-}
+
+
 header {
             background-color: blue ;
             color: white;
@@ -120,15 +160,22 @@ header {
 }
 		
 .organigramme img {
-        max-width: 100%;
-        height: auto;
+    max-width: 100%;
+    height: auto;
 	display: block;
-        margin: 20px auto;
+    margin: 20px auto;
+	
 }
 .team-member {
         text-align: center;
         margin: 10px 0;
 }
+.text {
+	text-align: center;
+}
+
+
+
 
 
 
