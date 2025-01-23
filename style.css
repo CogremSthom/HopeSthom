@@ -4,20 +4,24 @@
   box-sizing: border-box;
 }
 .carousel {
-  height: 100vh;
+  height: 50vh;
   width: 50vw;
   position: center;
-  margin:0 auto;
+  margin:0 13.75%;
+  border-style:solid;
+  border-radius:5px;
+  border-color:black;
 }
 .carousel button {
   position: absolute;
-  background: none;
+  background: #131313;
   border: none;
-  outline: none;
+  border-radius:2px;
+  outline: #E8EBE5;
   font-size: 2.6rem;
   z-index: 2;
   cursor: pointer;
-  color: rgb(243, 241, 241);
+  color: #E8EBE5;
   transform: translateY(-50%);
   top: 50%;
 }
