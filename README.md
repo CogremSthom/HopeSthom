@@ -12,7 +12,7 @@ Police slogan : Playlist Script
 
 Charte graphique :
 050505 Texte
-1B9AAAA U.I
+1B9AAA U.I
 F5F1E3 Fond
 FFFFFF (aïe)
 F79824 Liens + important
