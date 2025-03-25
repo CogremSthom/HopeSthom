@@ -12,6 +12,15 @@
   border-radius:5px;
   border-color:black;
 }
+.carousel2 {
+  height: 50vh;
+  width: 50vw;
+  position: center;
+  margin:0 13.75%;
+  border-style:solid;
+  border-radius:5px;
+  border-color:black;
+}
 .carousel button {
   position: absolute;
   background: #131313;
