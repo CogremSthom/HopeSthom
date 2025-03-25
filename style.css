@@ -34,19 +34,6 @@
   transform: translateY(-50%);
   top: 50%;
 }
-.carousel button2 {
-  position: absolute;
-  background: #131313;
-  border: none;
-  border-radius:2px;
-  outline: #E8EBE5;
-  font-size: 2.6rem;
-  z-index: 2;
-  cursor: pointer;
-  color: #E8EBE5;
-  transform: translateY(-50%);
-  top: 50%;
-}
 #prev {
   left: 25% ;
 }
