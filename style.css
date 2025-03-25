@@ -12,7 +12,29 @@
   border-radius:5px;
   border-color:black;
 }
+.carousel2 {
+  height: 50vh;
+  width: 50vw;
+  position: center;
+  margin:0 13.75%;
+  border-style:solid;
+  border-radius:5px;
+  border-color:black;
+}
 .carousel button {
+  position: absolute;
+  background: #131313;
+  border: none;
+  border-radius:2px;
+  outline: #E8EBE5;
+  font-size: 2.6rem;
+  z-index: 2;
+  cursor: pointer;
+  color: #E8EBE5;
+  transform: translateY(-50%);
+  top: 50%;
+}
+.carousel button2 {
   position: absolute;
   background: #131313;
   border: none;
