@@ -45,7 +45,7 @@
   cursor: pointer;
   color: #E8EBE5;
   transform: translateY(-50%);
-  top: 50%;
+  top: 75%;
 }
 #prev {
   left: 25% ;
@@ -53,7 +53,16 @@
 #next {
   right: 25.5%;
 }
+#prev1 {
+  left: 25% ;
+}
+#next1 {
+  right: 25.5%;
+}
 .carousel li {
+  list-style: none;
+}
+.carousel2 li {
   list-style: none;
 }
 .slide {
