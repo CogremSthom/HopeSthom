@@ -34,7 +34,7 @@
   transform: translateY(-50%);
   top: 50%;
 }
-.carousel button2 {
+.carousel2 button {
   position: absolute;
   background: #131313;
   border: none;
@@ -82,7 +82,7 @@
   width: 50%;
   object-fit: cover;
 }
-.slide img2 {
+.slide2 img {
   display: block;
   height: 50%;
   width: 50%;
