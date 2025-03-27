@@ -1,8 +1,6 @@
 const buttons = document.querySelectorAll(".btn");
 const slides = document.querySelectorAll(".slide");
 
-const buttons = document.querySelectorAll(".btn2");
-const slides = document.querySelectorAll(".slide2");
 
 // Tableau d'image : [0, 1, 2]
 
