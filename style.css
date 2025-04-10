@@ -34,13 +34,35 @@
   transform: translateY(-50%);
   top: 50%;
 }
+.carousel2 button {
+  position: absolute;
+  background: #131313;
+  border: none;
+  border-radius:2px;
+  outline: #E8EBE5;
+  font-size: 2.6rem;
+  z-index: 2;
+  cursor: pointer;
+  color: #E8EBE5;
+  transform: translateY(-50%);
+  top: 75%;
+}
 #prev {
   left: 25% ;
 }
 #next {
   right: 25.5%;
 }
+#prev1 {
+  left: 25% ;
+}
+#next1 {
+  right: 25.5%;
+}
 .carousel li {
+  list-style: none;
+}
+.carousel2 li {
   list-style: none;
 }
 .slide {
@@ -50,10 +72,26 @@
   opacity: 0;
   transition: 0.4s ease-in-out;
 }
+.slide2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
 .slide.active {
   opacity: 1;
 }
+.slide.active2 {
+  opacity: 1;
+}
 .slide img {
+  display: block;
+  height: 50%;
+  width: 50%;
+  object-fit: cover;
+}
+.slide2 img {
   display: block;
   height: 50%;
   width: 50%;

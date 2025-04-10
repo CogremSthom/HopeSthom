@@ -1,6 +1,8 @@
 const buttons = document.querySelectorAll(".btn");
 const slides = document.querySelectorAll(".slide");
 
+const buttons2 = document.querySelectorAll(".btn2");
+const slides2 = document.querySelectorAll(".slide2");
 // Tableau d'image : [0, 1, 2]
 
 buttons.forEach((button) => {
@@ -15,6 +17,21 @@ buttons.forEach((button) => {
     slides[newIndex].classList.add("active");
 
     slideActive.classList.remove("active");
+  });
+});
+
+buttons2.forEach((button) => {
+  button.addEventListener("click", (e) => {
+    const calcNextSlide2 = e.target.id === "next1" ? 1 : -1;
+    const slideActive2 = document.querySelector(".active2");
+
+    newIndex2 = calcNextSlide2 + [...slides2].indexOf(slideActive2);
+
+    if (newIndex2 < 0) newIndex2 = [...slides2].length - 1;
+    if (newIndex2 >= [...slides2].length) newIndex2 = 0;
+    slides2[newIndex2].classList.add("active2");
+
+    slideActive2.classList.remove("active2");
   });
 });
 // Sélection des éléments
