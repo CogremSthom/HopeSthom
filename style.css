@@ -251,18 +251,6 @@ description {
     </footer>
 
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-   background-color: dodgerblue;
-   grid-auto-rows: 50px;
-grid-template-areas:
-    "a a a a b b b b"
-    "a a a a b b b b";
-	align-items: start;
-	grid-auto-rows: 100px;
-	gap: 10px;
-}
 
 .wrapper {
   display: grid;
