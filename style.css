@@ -155,25 +155,25 @@ header {
             padding: 20px;
             text-align: center;
         }
-        section {
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 900px;
-            background: white;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        h1 {
+section {
+	padding: 20px;
+	margin: 20px auto;
+	max-width: 900px;
+	background: white;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+h1 {
             color: black;
 			text-align: center;
 			font-size: 40px;
-        }
-		h2, h3 {
+}
+h2, h3 {
             color: orange;
 			text-align: center;
 			margin:20px;
-        }
 }
+
 		
 .organigramme img {
     max-width: 100%;
@@ -213,6 +213,45 @@ description {
     </footer>
 
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+   background-color: dodgerblue;
+   grid-auto-rows: 50px;
+grid-template-areas:
+    "a a a a b b b b"
+    "a a a a b b b b";
+	align-items: start;
+	grid-auto-rows: 100px;
+	gap: 10px;
+}
 
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  grid-auto-rows: 100px;
+  grid-template-areas:
+    "a a a a b b b b"
+    "a a a a b b b b"
+	"a a a a b b b b"
+	"a a a a b b b b"
+    "c c c c c c c c"
+	"c c c c c c c c";
+    align-items: start;
+}
+.item1 {
+  grid-area: a;
+  width:58%;
+  justify-self: end;
+}
+.item2 {
+  grid-area: c;
+  justify-self: end;
+}
 
+.item3 {
+  grid-area: b;
+  width:56%;
+}
 
